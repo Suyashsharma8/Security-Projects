@@ -5,7 +5,7 @@ To prevent log files from filling up your disk you can setup log rotation rule t
 sudo nano /etc/logrotate.d/misp
 ```
 
-Add the example configuration:
+2. Add the example configuration:
 ```ini
 /var/log/*.log {
     daily                 # Rotate logs daily
@@ -17,12 +17,12 @@ Add the example configuration:
 }
 ```
 
-Test logrotate configuration:
+3. Test logrotate configuration:
 ```bash
 sudo logrotate -d /etc/logrotate.d/misp
 ```
 
-This debugs the rotation process without making actual changes. If everything looks fine, run to force immediate log rotation:
+4. This debugs the rotation process without making actual changes. If everything looks fine, run to force immediate log rotation:
 
 ```bash
 sudo logrotate -f /etc/logrotate.d/misp
