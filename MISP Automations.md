@@ -1,7 +1,6 @@
-Script to auto feed cache and fetch
+Script to auto feed cache and fetch feeds.
 
 ```bash
-                                              
 #!/bin/bash
  
 # Command to check the status of workers
@@ -67,5 +66,7 @@ fi
  
 echo "$(date +"%Y-%m-%d %H:%M:%S")"
 echo  "--- Script completed --"
- 
+
+This script can be automated with crontab. Example:
+12 3,6,10,15,19,23 * * * bash /opt/check_feeds.sh >> /tmp/feed_crontab_results.txt 
 
