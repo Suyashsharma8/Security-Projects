@@ -1,7 +1,7 @@
 To prevent log files from filling up your disk you can setup log rotation rule to manage logs in /var/log/
 
 1. Create logrotate configuration file:
-``bash
+```bash
 sudo nano /etc/logrotate.d/misp
 ```
 
