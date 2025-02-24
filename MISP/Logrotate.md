@@ -22,10 +22,10 @@ sudo nano /etc/logrotate.d/misp
 sudo logrotate -d /etc/logrotate.d/misp
 ```
 
-4. This debugs the rotation process without making actual changes. If everything looks fine, run to force immediate log rotation:
+4. This debugs the rotation process without making actual changes. If everything looks fine, run the below command to force immediate log rotation:
 
 ```bash
 sudo logrotate -f /etc/logrotate.d/misp
 ```
 
-Logrotate is already managed by a cron job in /etc/cron.daily/logrotate. You don’t need to do anything extra—Linux will automatically rotate logs daily.
+Logrotate is already managed by a cron job in /etc/cron.daily/logrotate and does not need to anything extra—Linux will automatically rotate logs daily.
