@@ -1,4 +1,3 @@
-```python
 # Code for supporting storage of secrets in key vault (only works for VMs running on Azure)
 #import os
 #from azure.keyvault.secrets import SecretClient
@@ -21,9 +20,7 @@
 # misp_key = retrieved_mispkey.value
 # 'client_secret': retrieved_clientsecret.value
 
-####
-# Microsoft section
-#
+Microsoft section
 ms_auth = {
     'tenant':'xxxxxxxxxxxxxxx',
     'client_id':'xxxxxxxxxxxxxxx',
