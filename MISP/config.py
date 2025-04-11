@@ -1,3 +1,4 @@
+#This script can be used to upload and export indicators to sentinel
 # Code for supporting storage of secrets in key vault (only works for VMs running on Azure)
 #import os
 #from azure.keyvault.secrets import SecretClient
