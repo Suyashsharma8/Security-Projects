@@ -43,13 +43,13 @@ ms_max_requests_minute = 100        # Upload Indicators API: Throttle max: 100 r
 ####
 # MISP section
 misp_key = 'xxxxxxxxxxxxxxxxxxxx'
-misp_domain = 'https://intelligence.verisure.com'
+misp_domain = '<enter your domain>'
 misp_verifycert = False
 timeout = 120
 
 misp_event_filters = {
     "published": 1,
-    "tags": [ "workflow:state=\"complete\""],
+    "tags": [ " you can add customs tags" ],
     #"enforceWarninglist": True,
     "includeEventTags": True,
     "publish_timestamp": "14d",
