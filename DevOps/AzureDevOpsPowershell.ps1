@@ -1,6 +1,4 @@
 
-
-'''powershell
 # Script by Mr O - Entellectual Services Limited
 # Use this to convert exported JSON files from Microsoft Sentinel
 
@@ -55,4 +53,3 @@ foreach ($file in $files) {
         }
     }
 }
-'''
