@@ -1,5 +1,5 @@
 
-# Script by Mr O - Entellectual Services Limited
+# This script can be used to convert file in JSON format to YAML
 # Use this to convert exported JSON files from Microsoft Sentinel
 
 param (
