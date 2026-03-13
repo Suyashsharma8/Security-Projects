@@ -1,6 +1,9 @@
+# Linux Log Parser (Python)
 
+## Overview
+This script parses Linux authentication logs and extracts structured fields using regular expressions.
 
-'''python
+```python
 import re
 import pandas as pd
 
