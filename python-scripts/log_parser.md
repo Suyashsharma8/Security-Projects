@@ -18,3 +18,12 @@ logs = [re.match(log_pattern, line).groupdict() for line in lines if re.match(lo
 # Convert to DataFrame for analysis
 log_df = pd.DataFrame(logs)
 print("Parsed Logs:\n", log_df.head())
+
+# Count authentication failures
+log_df[log_df["message"].str.contains("failure")]
+
+#Find most attacked IP
+log_df["message"].value_counts()
+
+#Filter ssh logs
+log_df[log_df["service"] == "sshd"]
