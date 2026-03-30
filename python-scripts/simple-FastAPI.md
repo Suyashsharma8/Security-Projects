@@ -1,6 +1,6 @@
 This is a simple example of a FastAPI application.
 
-'''python
+```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
