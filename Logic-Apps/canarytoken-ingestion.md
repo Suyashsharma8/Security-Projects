@@ -1,3 +1,4 @@
+This logic-app can parse the incoming webhook, we need to add an action for it to send the data into Azure Sentinel. This requires the Log Analytics Data Collector connector and the Send Data action.
 
 ```json
 {
